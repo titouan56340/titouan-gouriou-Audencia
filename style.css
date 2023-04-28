@@ -1,0 +1,45 @@
+/* Write some CSS below */
+h1{
+	color: #000080;
+}
+body{
+	color: rgb(0,0,128);
+	background-color: (0,0,0);
+}
+a{
+	background: blue; 
+}
+a{color: black ;
+}
+.baner{
+	text-align: center;
+	padding: 100px 0;
+	background-image: url(images/baniere-audencia.jpg);
+}
+.button{
+	padding:10px 15px;
+	border-radius: 8px;
+}
+.card{
+	border-radius: 6px;
+	box-shadow: 4px 4px 10px rgba(0,0,0,0.2);
+	padding: 16px;
+}
+.cards{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 16px;
+}
+.card-immage{
+	width: 100%;
+}
+.main-section{
+	max-width: 800px;
+	margin: 0 auto;
+}
+@media screen and (max-width: 667px){
+	.cards {
+		grid-template-columns: 1fr ; 
+	}
+	
+}
